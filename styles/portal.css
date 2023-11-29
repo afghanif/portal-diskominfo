@@ -1,0 +1,14 @@
+/* Membuat header transparan awalnya */
+.scroll-header {
+    display: block;
+}
+
+/* Ketika di-scroll, header akan ditampilkan dan latar belakangnya akan berubah */
+.scroll-header.scroll-show {
+    display: none;
+}
+
+/* Efek transisi ketika header muncul */
+.scroll-header-transition {
+    transition: background-color 0.5s ease-in-out;
+}

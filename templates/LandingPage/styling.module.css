@@ -1,0 +1,7 @@
+.overlaydark {
+  background: linear-gradient(to bottom,     
+rgba(31, 41, 55, 0) 0%,   /* Atas */    
+rgba(31, 41, 55, 0) 50%,  /* Tengah */    
+rgba(31, 41, 55, 0) 50%,  /* Tengah (kembali) */    
+rgba(31, 41, 55, 0.9) 100%  /* Bawah */)
+}

@@ -1,0 +1,56 @@
+{
+  "name": "app-tempnext",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install",
+    "test": "echo No tests found.",
+    "format": "prettier --write --ignore-path=.gitignore .",
+    "format:check": "prettier --check --ignore-path=.gitignore .",
+    "deploy:vercel": "vercel"
+  },
+  "dependencies": {
+    "@types/node": "20.6.0",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "apexcharts": "^3.44.0",
+    "datatables.net-dt": "^1.13.7",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.4.19",
+    "framer-motion": "^9.1.7",
+    "highcharts": "^11.2.0",
+    "leaflet": "^1.9.4",
+    "memory-cache": "^0.2.0",
+    "next": "13.4.19",
+    "next-plausible": "^3.11.1",
+    "react": "18.2.0",
+    "react-apexcharts": "^1.4.1",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.46.1",
+    "react-youtube": "^10.1.0",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@tanstack/react-query": "^4.35.0",
+    "@tanstack/react-query-devtools": "^4.35.0",
+    "@types/jquery": "^3.5.26",
+    "@types/leaflet": "^1.9.7",
+    "@types/memory-cache": "^0.2.3",
+    "autoprefixer": "^10.4.15",
+    "encoding": "^0.1.13",
+    "eslint-config-prettier": "^8.10.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "postcss": "^8.4.29",
+    "prettier": "^2.8.8",
+    "tailwindcss": "^3.3.3",
+    "vercel": "^30.2.3"
+  },
+  "lint-staged": {
+    "*": "prettier --write --ignore-unknown"
+  }
+}
